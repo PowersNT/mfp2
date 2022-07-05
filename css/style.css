@@ -1,0 +1,77 @@
+/* || General Classes and Selectors */
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    background-size: cover;
+    height: 800px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h4 {
+    color:rgba(89, 199, 236, 1);
+    font-family: "Lora", serif;
+    font-size: 20px;
+}
+
+p {
+    color:rgba(0, 0, 0, 1);
+    font-family: "Lora", serif;
+}
+
+/* || Header Selector */
+
+header {
+    background-color:rgba(89, 199, 236, 1);
+    background-image: linear-gradient(rgb(89, 199, 236), rgb(0, 0, 0));
+    padding: 120px;
+}
+
+/* || Center Hero Classes */
+
+.centered {
+    background-color:rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.moveleft {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.moveright {
+    text-align: right;
+}
+
+/* || Media Queries */
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgba(232, 93, 4, 1); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgba(244, 140, 6, 1); 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgba(250, 163, 7, 1); 
+    }
+}
